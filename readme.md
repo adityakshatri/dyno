@@ -1,0 +1,1 @@
+mozilla extension for playing dino game :>

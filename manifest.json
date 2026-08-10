@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Dino AI Autopilot",
+    "version": "1.0.0",
+    "description": "Autonomous AI player for chromedino.com",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chromedino.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end",
+            "world": "MAIN"
+        }
+    ]
+}
